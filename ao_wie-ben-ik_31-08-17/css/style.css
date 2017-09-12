@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url('../images/woodbackground.jpg');
+    background-size: cover;
+    margin-bottom: 58px;
+    font-family: lithograph;
+    /*code below makes the header fit on every screen size as for a landing page*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+header h1 {
+    color: white;
+    border: 5px white solid;
+    font-size: 100px;    
+    margin: 0;
+    padding: 10px;
+}
+.container {
+    margin: 0 auto;
+    width: 930px;
+}
+.overmij p {
+    font-size: 20px;
+}
+.overmij img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: 0 20px 0 20px;
+    float: right;
+}
+footer {
+    text-align: center;
+}
